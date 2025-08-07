@@ -6,33 +6,32 @@
     <title>Swastika Designers</title>
        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./index.css"/>
+         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
 <body>
-    <div class="Container">
-       <!-- header & navbar start -->
-        <header>
-            <nav>
-                 <a href="index.html">
-                       <img src="./assets/images/logo.png"  class="logo" alt="Not Visible">
+
+<div class="main">
+          <header>
+                 <a href="index.html" class="logo">
+                 Swastika Designers     
                     </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                      <li><a href="index.html" class="active">Portfolio</a></li>
-                      <li><a href="./service.html">Serivce</a></li>
-                
-                      <li><a href="./contact.html">Contact Us</a></li>
-                    
-                  </ul>   
-                   <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-            </nav>
+
+                 <nav >
+                    <ul class="topNav" >
+                        <li> <a  href="./index.html" class="active">Portfolio</a></li>
+                        <li> <a href="./service.html" >Service</a></li>
+                        <li> <a href="./contact.html" >Contact Us</a></li>
+                    </ul>
+                        
+                        
+                        
+                </nav>
+                     <span class="menu" onclick="resNavBar()">
+                          <i class='bx bx-menu'></i>
+                     </span>
+                          
         </header>
 
-
-       <!-- header & navbar end -->
-
-    </div>
+<script src="./navbar.js"></script>t>
 </body>
 </html>
