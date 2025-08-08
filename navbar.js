@@ -1,6 +1,13 @@
 
 function resNavBar(){
-var navBar=document.querySelector('.topNav').style.display="block";
+document.querySelector('.topNav').style.display="block";
+document.querySelector('.menu').style.display="none";
+document.getElementById('close').style.display="block";
+}
 
-console.log(navBar);
+function closeNavBar(){
+   document.querySelector('.topNav').style.display="none"; 
+   document.querySelector('.menu').style.display="block";
+   document.getElementById('close').style.display="none";
+
 }
