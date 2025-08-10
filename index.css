@@ -134,4 +134,7 @@ header nav ul{
 header nav ul{ 
 display:none;
 }
+header nav ul li{
+  line-height: 50px;
+}
 }
