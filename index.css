@@ -202,8 +202,8 @@ letter-spacing: 7px;
 .featureContainer{
   display: grid;
    grid-template-columns:repeat(3,1fr);
-   gap:10px;
-   width:1450px;
+   gap:12px;
+   width:1430px;
     padding-top:30px;
      padding-bottom: 180px;
 }
