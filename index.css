@@ -250,3 +250,50 @@ font-weight: 500;
 font-family: 'Poppins', sans-serif;
 text-transform: capitalize;
 }
+
+/* footer design */
+
+.contentContainer{
+  display:flex;
+  flex-direction: row;
+  padding: 60px;
+  justify-content: space-evenly;
+  
+  background-color: black;
+}
+.contentContainer h2{
+color: rgb(234, 230, 230);
+font-size: 20px;
+font-weight: 400;
+}
+.contentContainer  p{
+color: rgb(169, 166, 166);
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+padding-top:5px;
+cursor: pointer;
+}
+ .contactInfo i{
+font-size: 18px;
+cursor: pointer;
+}
+.contentContainer .quicklinks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ }
+ .contentContainer .quicklinks a{
+  padding-top: 5px;
+  color: rgb(169, 166, 166);
+  font-family: 'Poppins', sans-serif;
+font-weight: 500;
+ }
+  .contentContainer .followus{
+display: flex;
+flex-direction: row;
+}
+  .contentContainer .followus i{
+    font-size: 20px;
+    color: white;
+  }
