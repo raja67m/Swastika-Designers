@@ -152,8 +152,51 @@ font-weight: 600;
 .testimonials .testGrid{
    display: grid;
    grid-template-columns:repeat(3,1fr);
-   padding: 4px;
-   width:1530px;
+gap: 25px;
+cursor: pointer;
+padding:60px;
+
 }
+.testGrid .testProfile{
+border-radius: 7px;
+border: 1px solid rgb(211, 208, 208);
+background-color: white;
+padding: 17px;
+
+}
+.testGrid .testProfile .test{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  text-align: start;
+}
+.testProfile .test img{
+  width: 50px;
+  height: 100%;
+  border-radius: 50px;
+  background-color: white;
+}
+.testGrid .testProfile .test p{
+  font-size: 18px;
+  font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing:0px;
+    margin-left: 18px;
+}
+.testGrid .testProfile .test span{
+  font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+.testGrid .testProfile .testBio {
+font-size: 18px;
+color: rgb(48, 46, 46);
+letter-spacing: 0px;
+font-weight:normal;
+text-align:start;
+margin-left: 20px;
+padding: 10px;
+}
+
 
 /* testimonials end */
