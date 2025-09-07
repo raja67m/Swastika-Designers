@@ -271,6 +271,7 @@ text-transform: capitalize;
 color: rgb(234, 230, 230);
 font-size: 20px;
 font-weight: 400;
+text-align: start;
 }
 .contentContainer  p{
 color: rgb(169, 166, 166);
@@ -278,6 +279,7 @@ font-family: 'Poppins', sans-serif;
 font-weight: 500;
 padding-top:5px;
 cursor: pointer;
+text-align: start;
 }
  .contactInfo i{
 font-size: 18px;
