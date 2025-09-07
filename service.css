@@ -150,8 +150,8 @@ font-weight: 600;
   margin-top:5px;
 }
 .testimonials .testGrid{
-   display: grid;
-   grid-template-columns:repeat(3,1fr);
+display: grid;
+grid-template-columns:repeat(3,1fr);
 gap: 25px;
 cursor: pointer;
 padding:60px;
@@ -198,5 +198,42 @@ margin-left: 20px;
 padding: 10px;
 }
 
-
 /* testimonials end */
+
+/* desgin gallary section start*/
+.designGallary .desingGrid{
+  display: grid;
+  grid-template-columns:repeat(4,2fr);
+gap: 15px;
+cursor: pointer;
+padding: 50px;
+}
+.desingGrid .desingContent{
+  position: relative;
+
+}
+.desingGrid .desingContent img{
+width: 100%;
+height: 80%;
+  border-radius: 8px;
+  filter: blur(2px);
+border: 2px solid black;
+cursor: pointer;
+}
+.desingGrid .desingContent img:hover{
+ transform: scale(1.2);
+}
+
+.desingGrid .desingContent p{
+font-size: 18px;
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+
+position: absolute;
+top: 240px;
+left: 100px;
+  
+}
+
+
+/* design gallary section end */
