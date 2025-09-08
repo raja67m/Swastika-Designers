@@ -79,7 +79,7 @@ letter-spacing: normal;
   flex-direction: column;
    padding: 20px;
     background-color: white;
-    margin-left: 200px;
+    margin-left: 230px;
     margin-top: 40px;
 
 }
@@ -238,4 +238,16 @@ left: 100px;
 
 /* design gallary section end */
 
-
+/* ratting design  */
+.ratting{
+  display:flex;
+  flex-direction: row;
+  margin-left: 8px;
+}
+.ratting span{
+  color: gray;
+  font-size: 20px;
+}
+.emptySapce{
+  padding: 70px;
+}
