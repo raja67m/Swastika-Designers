@@ -318,3 +318,24 @@ padding:60px  30px 0px 30px;
 
 }
  
+/* resposive degin to start */
+
+@media screen and (max-width:767px){
+
+.main .bodyContainer section h1{
+  font-size: 30px;
+}
+.main .bodyContainer section p{
+  font-size: 20px;
+  text-align:justify;
+  align-items: center;
+ margin: 15px;
+
+}
+.main .bodyContainer section .viewwork{
+
+margin-left:35%;
+
+}
+
+}
