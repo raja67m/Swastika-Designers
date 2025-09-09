@@ -24,7 +24,7 @@ letter-spacing: 7px;
   border-radius: 7px;
   background-color: rgb(249, 249, 249);
   width: 330px;
-  padding: 13px;
+  padding: 20px;
   cursor: pointer;
 
   margin-top:50px;
@@ -250,4 +250,13 @@ left: 100px;
 }
 .emptySapce{
   padding: 70px;
+}
+
+/* mobiel responsive design start */
+
+@media screen and (max-width:767px){
+.serviceGrid{
+grid-template-columns:repeat(1,4fr);
+
+ }
 }
