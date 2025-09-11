@@ -29,7 +29,7 @@ letter-spacing: 7px;
  margin-top:50px;
 }
 section h1{
-  margin-top: 120px;
+  margin-top: 50px;
 }
 .serviceGrid{
  display: grid;
@@ -75,6 +75,9 @@ letter-spacing: normal;
 
 }
 /* from container start */
+#project-head{
+margin-top: 100px;
+}
 .projectContainer{
   width: 1000px;
   display: flex;
@@ -156,7 +159,9 @@ display: grid;
 grid-template-columns:repeat(3,1fr);
 gap: 25px;
 cursor: pointer;
-padding:60px;
+padding-left:60px;
+padding-right:60px;
+padding-top:60px;
 
 }
 .testGrid .testProfile{
@@ -210,7 +215,9 @@ gap: 20px;
 cursor: pointer;
 padding: 40px;
 }
-
+.designGallary h1{
+  margin-top: 50px !important;
+}
 .desingGrid .desingContent img{
 width: 100%;
 height: 80%;
