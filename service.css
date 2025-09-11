@@ -206,7 +206,7 @@ padding: 10px;
 .designGallary .desingGrid{
   display: grid;
   grid-template-columns:repeat(4,2fr);
-gap: 20px;
+gap: 12px;
 cursor: pointer;
 padding: 40px;
 }
@@ -214,8 +214,8 @@ padding: 40px;
   margin-top: 50px !important;
 }
 .desingGrid .desingContent img{
-width: 100%;
-height: 80%;
+width: 90%;
+height: 70%;
   border-radius: 8px;
   filter: blur(2px);
 border: 2px solid black;

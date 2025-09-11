@@ -203,10 +203,9 @@ letter-spacing: 7px;
 .featureContainer{
   display: grid;
    grid-template-columns:repeat(3,1fr);
-   gap:12px;
-   width:1430px;
-    padding-top:30px;
-     padding-bottom: 180px;
+   gap:10px;
+  margin: 30px;
+   
 }
 
 .featureContainer .feature-content{
@@ -343,15 +342,10 @@ margin-left:35%;
 grid-template-columns:repeat(1,3fr);
 
  }
-  .featureContainer .feature-content{
-    width:60%;
-    height:auto;
-overflow:auto;
-margin-left: 400px;
-padding: 10px;
-
+ .featureContainer{
+ margin: 30px;  
 }
-
+ 
 
 .contentContainer{
   display:flex;
