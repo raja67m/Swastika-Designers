@@ -79,21 +79,16 @@ letter-spacing: normal;
 margin-top: 100px;
 }
 .projectContainer{
-  width: 1000px;
+  margin: 40px 280px 30px 280px;
   display: flex;
   flex-direction: column;
-   padding: 20px;
+  padding: 40px;
     background-color: white;
-    margin-left: 230px;
-    margin-top: 40px;
 
 }
 .formContainer{
   display: flex;
   flex-direction:row;  
- 
-  padding: 10px;
- 
 }
 .formContainer .firstRow{
   display: flex;
@@ -125,7 +120,7 @@ text-align: start;
 }
                            
 .projectContainer textarea{
-  padding: 40px  150px;
+padding: 40px;
   border-radius: 5px;
  border: 1px solid gray;
  align-items: start;
@@ -274,7 +269,17 @@ grid-template-columns:repeat(1,3fr);
   grid-template-columns:repeat(1,8fr);
  
   gap: 6px;
-
 }
+
+.projectContainer{
+  margin: 40px 10px 10px 10px;
+}
+
+.formContainer{
+  display: flex;
+  flex-direction:column;  
+}
+
+
 
 }
