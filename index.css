@@ -255,6 +255,8 @@ text-transform: capitalize;
 /* news letter design start */
 
 .NewsLetterContainer{
+  display:flex;
+  flex-direction:column;
   background-color: white;
   border:2px solid rgb(227, 225, 225);
   border-radius: 9px;
@@ -264,8 +266,10 @@ padding: 20px;
       margin-bottom:20px;
 }
 .NewsLetterContainer i{
-  font-size: 19px;
+  font-size: 17px;
   color: black;
+  cursor: pointer;
+  text-align: end;
 }
 .newsContent{
   display: flex;
@@ -403,6 +407,18 @@ grid-template-columns:repeat(1,3fr);
 }
 .contactInfo{
   margin-bottom: 20px;
+}
+.NewsLetterContainer h1{
+  text-align: center;
+}
+.newsContent{
+flex-direction:column;
+}
+.newsContent p{
+  text-align:center;
+}
+.newsContent input{
+  margin-bottom: 13px;
 }
 
 }
