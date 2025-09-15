@@ -11,4 +11,15 @@ function closeNavBar(){
    document.querySelector('.menu').style.display="block";
    document.getElementById('close').style.display="none";
 
+   document.querySelector('.NewsLetterContainer').style.display="none";
+  
 }
+
+
+// new letter show popup function
+
+window.addEventListener("load",function(){
+   setTimeout(function open(event){
+      document.querySelector(".NewsLetterContainer").style.display="block";
+   },2000)
+})
