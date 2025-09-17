@@ -116,6 +116,7 @@ left: 10px;
   position: absolute;
 top: 20px;
 left: 450px;
+
 -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
 }
