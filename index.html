@@ -152,5 +152,18 @@
 </div>             
 
 <script src="./scriptFile.js"></script>
+<!-- news letter funciton -->
+<script>
+const closeNews=()=>{
+ document.querySelector('.NewsLetterContainer').style.display="none";
+}
+// new letter show popup function
+
+window.addEventListener("load",function(){
+   setTimeout(function open(event){
+      document.querySelector(".NewsLetterContainer").style.display="block";
+   },2000)
+})
+</script>
 </body>
 </html>

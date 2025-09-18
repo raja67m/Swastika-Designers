@@ -14,13 +14,26 @@ function closeNavBar(){
   
   
 }
-const closeNews=()=>{
- document.querySelector('.NewsLetterContainer').style.display="none";
-}
-// new letter show popup function
 
-window.addEventListener("load",function(){
-   setTimeout(function open(event){
-      document.querySelector(".NewsLetterContainer").style.display="block";
-   },2000)
+
+
+
+// form validation:
+
+
+const submitBtn=document.getElementById('sumbitFeed');
+
+submitBtn.addEventListener('submit',function(event){
+   event.preventDefault();
+console.log(submitBtn,"the btn clicked");
+const fullName=document.getElementById('fullName').value;
+const email=document.getElementById('emailID');
+const feedback=document.getElementById('feedBack');
+
+if(!fullName){
+   fullName.classList.add('error-input');
+   console.log(fullName)
+}
+
 })
+
