@@ -280,8 +280,12 @@ grid-template-columns:repeat(1,3fr);
   flex-direction:column;  
 }
 }
+#form{
+  display: flex;
+  flex-direction: column;
+}
 .error-input{
-  border: 2px solid red;
+  border: 2px solid red !important;
   animation: shake .1s linear;
   animation-iteration-count: 3;
   position: relative;

@@ -15,7 +15,6 @@
      <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
      <link rel="stylesheet" href="./index.css"/>
 
-     <script src="./scriptFile.js"></script>
       </head>
 <body>
 
@@ -54,7 +53,8 @@
                                <h1>Share Your Feedback</h1>
                          <div class="projectContainer">
                           
-                           <form class="formContainer">
+                        <form id="form">
+                           <div class="formContainer">
                               <div class="firstRow">
                                     <label> Name</label>
                                    <input type="text" name="fullname" id="fullName">
@@ -74,11 +74,14 @@
                                      
                               
                               </div>
-                              
-                           </form>
-                           <label>Your Feedback</label>
+                           </div>   
+
+                               <label>Your Feedback</label>
                               <textarea placeholder="Share your experienc with us" id="feedBack"></textarea>
-                              <button type="submit" id="sumbitFeed">Sumbit Feedback</button>
+                              <button type="submit">Sumbit Feedback</button>
+                              
+                        </form>
+                          
                          </div>
                      </section>
                      
@@ -138,6 +141,8 @@
 </div>             
 
 
+     <script src="./scriptFile.js"></script>
+          <script src="./formvalidation.js"></script>
 
 </body>
 </html>
