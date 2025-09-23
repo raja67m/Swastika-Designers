@@ -32,58 +32,14 @@ else{
 }
 if(fullname.value && email.value && feedback.value){
     alert("Form submited");
+
+form.reset();
+
+
+   
 }
 
 });
 
 
-// project form validation
 
-const fform=document.getElementById('form');
-
-
-fform.addEventListener('submit',function(event){
-    event.preventDefault();
-
-    const fname=document.getElementById('fname');
-    const femail=document.getElementById('femail');
-    const fphone=document.getElementById('fphone');
-    const option=document.getElementById('option');
-    const ffeed=document.getElementById('ffeed');
-
-    if(!fname.value){
-        fname.classList.add('error-input');
-    }
-    else{
-          fname.classList.remove('error-input');
-    }
-    
-    if(!femail.value){
-        femail.classList.add('error-input');
-    }
-    else{
-          femail.classList.remove('error-input');
-    }
-     if(!fphone.value){
-        fphone.classList.add('error-input');
-    }
-    else{
-          fphone.classList.remove('error-input');
-    }
-      if(!option.value){
-        option.classList.add('error-input');
-    }
-    else{
-          option.classList.remove('error-input');
-    }
-      if(!ffeed.value){
-        ffeed.classList.add('error-input');
-    }
-    else{
-          ffeed.classList.remove('error-input');
-    }
-if(fname.value && femail.value && ffeed.value && fphone &&option && ffeed){
-    alert("Form submited");
-}
-
-})
