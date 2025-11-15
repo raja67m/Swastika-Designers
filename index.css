@@ -158,18 +158,19 @@ align-items: center;
 }
 
 .main .bodyContainer section h1{
-margin-top: 260px;
+margin-top: 20px;
 text-align: center;
 text-transform: capitalize;
-font-size: 70px;
+font-size: 30px;
+font-weight: 550;
 font-family: 'Poppins', sans-serif;
 }
 .main .bodyContainer section p{
   align-items: center;
   text-align: center;
   max-width: max-content;
-  margin: 10px 300px 30px 300px;
-  font-size: 20px;
+  margin: 10px 300px 20px 300px;
+  font-size: 15px;
 font-weight: 500;
   color: rgb(61, 61, 61);
 font-family: 'Poppins', sans-serif;
@@ -177,14 +178,14 @@ font-family: 'Poppins', sans-serif;
 .main .bodyContainer section .viewwork{
 align-items: center;
 text-align: center;
-padding: 15px 30px;
+padding: 10px 30px;
 border: none;
 border-radius: 6px;
 background-color: black;
 color: white;
 font-weight: 500;
 font-family: 'Poppins';
-font-size: 18px;
+font-size: 15px;
 cursor: pointer;
 margin-left:44%;
 transition: ease .4s;
