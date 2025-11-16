@@ -15,7 +15,10 @@ function closeNavBar(){
   
 }
 
-
+// button location
+bookAppointment=()=>{
+   window.location="./Portfolio.html";
+} 
 
 
 

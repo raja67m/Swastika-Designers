@@ -8,12 +8,12 @@
   
        
          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close" />
-       
+         <link rel="stylesheet" href="./index.css"/>
          <link rel="stylesheet" href="./service.css">
                <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
-     <link rel="stylesheet" href="./index.css"/>
+     
 
       </head>
 <body>
@@ -32,6 +32,7 @@
                     <ul class="topNav" >
                         <li> <a  href="./index.html" >Portfolio</a></li>
                         <li> <a href="./service.html" >Service</a></li>
+                        <li> <a href="./designGallary.html" >Gallery</a></li>
                         <li> <a href="./contact.html" class="active" >Contact Us</a></li>
                     </ul>
                        
@@ -87,7 +88,27 @@
                      
                    <!-- feed back section end -->
 
-                     <div class="emptySapce"></div>
+                    <!-- News letter section stat -->
+              <section>
+
+                  <div class="NewsLetterContainer">
+                        <i class="fi fi-br-cross" id="closeNew" onclick="closeNews()"></i>
+                        <i class="fi fi-sr-envelope"></i>
+                     <h1>Stay Updated</h1>
+                      <p>Subscribe to our newsletter for design tips, industry insights, and project updates.</p>
+                     <div class="newsContent">
+                       
+                        <input type="text" name="newletter" placeholder="Enter Your Email">
+                        <button>Subscribe</button>
+                     </div>
+
+                  </div>
+
+              </section>
+               <!-- News letter section end -->
+
+
+                    
 
                      <!-- footer section start -->
                     <footer>
@@ -116,10 +137,7 @@
                                        <i class="fi fi-brands-linkedin"></i>
                                        <i class="fi fi-brands-facebook"></i>
                                        <i class="fi fi-brands-instagram"></i>
-                                           <!-- <img src="./linkedin.png" alt="Not visble"> 
-                                          <img src="./facebook.png" alt="Not visble"> 
-                                          <img src="./github.png" alt="Not visble"> 
-                                         <img src="./instagram.png" alt="Not visble">  -->
+                                          
                                     </div>
                                   
                                    
@@ -143,6 +161,18 @@
 
      <script src="./scriptFile.js"></script>
           <script src="./formvalidation.js"></script>
+<!-- news letter funciton -->
+<script>
+const closeNews=()=>{
+ document.querySelector('.NewsLetterContainer').style.display="none";
+}
+// new letter show popup function
 
+window.addEventListener("load",function(){
+   setTimeout(function open(event){
+      document.querySelector(".NewsLetterContainer").style.display="block";
+   },2000)
+})
+</script>
 </body>
 </html>

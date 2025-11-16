@@ -30,6 +30,7 @@
                     <ul class="topNav" >
                         <li> <a  href="./Portfolio.html">Portfolio</a></li>
                         <li> <a href="./service.html" >Service</a></li>
+                        <li> <a href="./designGallary.html" >Gallery</a></li>
                         <li> <a href="./contact.html" >Contact Us</a></li>
                     </ul>
                        
@@ -52,46 +53,18 @@
                      <img src="./imageSlide.jpg" alt="Not Visibel">
                      <h1>Transform Your Space Into a Masterpiece</h1>
                      <p>We create exceptional interior and architectural designs that blend functionality with aesthetic excellence. Let us bring your vision to life.</p>
-                     <button class="viewwork">View portfolio</button>
+                     <button class="viewwork" onclick="bookAppointment()">View portfolio</button>
                   </section>
                     <!-- view work page end -->
                     
            </div>    
              <!-- section body end -->  
 
-             <!-- News letter section stat -->
-              <section>
-
-                  <div class="NewsLetterContainer">
-                        <i class="fi fi-br-cross" id="closeNew" onclick="closeNews()"></i>
-                     <h1>Stay Updated</h1>
-                     <div class="newsContent">
-                        <p>Subscribe to our newsletter for design tips, industry insights, and project updates.</p>
-                        <input type="text" name="newletter" placeholder="Enter Your Email">
-                        <button>Subscribe</button>
-                     </div>
-
-                  </div>
-
-              </section>
-               <!-- News letter section end -->
-                         
+                                     
              
 </div>             
 
 <script src="./scriptFile.js"></script>
-<!-- news letter funciton -->
-<script>
-const closeNews=()=>{
- document.querySelector('.NewsLetterContainer').style.display="none";
-}
-// new letter show popup function
 
-window.addEventListener("load",function(){
-   setTimeout(function open(event){
-      document.querySelector(".NewsLetterContainer").style.display="block";
-   },2000)
-})
-</script>
 </body>
 </html>

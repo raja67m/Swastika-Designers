@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
 *{
    margin: 0px;
    padding: 0px;
@@ -267,11 +268,12 @@ object-fit: cover;
 .NewsLetterContainer{
 
   background-color: white;
-  border:2px solid rgb(227, 225, 225);
+  border:1px solid rgb(227, 225, 225);
   border-radius: 9px;
-padding: 20px;
-
- 
+padding: 10px;
+display: flex;
+flex-direction: column;
+text-align: center;
   margin-left:150px;
    margin-right:150px;
       margin-bottom:20px;
@@ -292,42 +294,49 @@ padding: 20px;
 
     
 .NewsLetterContainer i{
-  font-size: 17px;
+  font-size: 60px;
   color: black;
   cursor: pointer;
-  margin-left: 98%;
+  margin-top: 10px;
 }
 .newsContent{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  
 }
-.newsContent p{
-font-size: 17px;
+.NewsLetterContainer h1{
+  font-size: 10px;
+  margin-top: 10px !important;
+}
+.NewsLetterContainer p{
+font-size: 15px;
   padding: 10px;
   margin: 5px;
 text-transform: capitalize;
 }
 .newsContent input{
   border-radius: 3px;
-padding: 10px 10px;
+padding: 7px 20px !important;
 margin-right: 5px;
-border: 2px solid rgb(189, 186, 186);
+border: 1px solid rgb(189, 186, 186);
 }
 .newsContent button{
 align-items: center;
 text-align: center;
-padding: 15px 30px;
+padding: 10px 35px;
 border: none;
 border-radius: 3px;
 background-color: black;
 color: white;
 font-weight: 500;
 font-family: 'Poppins';
-font-size: 18px;
+font-size: 15px;
 cursor: pointer;
 
 transition: ease .4s;
 }
+                 
 
 .NewsLetterContainer{
   display: none;
