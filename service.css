@@ -15,7 +15,7 @@ text-transform: capitalize;
 font-size: 30px !important;
 font-family: 'Poppins', sans-serif;
 font-weight: 550;
-letter-spacing: 7px;
+letter-spacing:normal;
 }
 .serviceBox{
     display: flex;
@@ -36,10 +36,7 @@ letter-spacing: 7px;
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
 }
-section h1{
 
-  font-size: 35px;
-}
 .serviceGrid{
  display: grid;
 grid-template-columns:repeat(3,1fr);
@@ -101,7 +98,7 @@ margin-top: 20px;
 }
 /* from container start */
 #project-head{
-margin-top: 100px;
+margin-top: 70px;
 }
 .projectContainer{
   margin: 40px 280px 30px 280px;
@@ -135,9 +132,10 @@ text-align: start;
   border-radius: 5px;
  border: 1px solid gray;
  margin: 10px;
+ text-align: center;
 }
 .projectContainer label{
-  font-size: 18px;
+  font-size: 15px;
 letter-spacing: 0px;
 text-align: start;
  margin: 10px;
@@ -150,21 +148,22 @@ padding: 40px;
  border: 1px solid gray;
  align-items: start;
  color: gray;
- font-size: 20px;
+ font-size: 15px;
 text-align: start; 
 margin: 10px; 
 
 }
 .projectContainer button{
   color: white;
-  padding:15px;
+  padding:10px;
+  border: none;
   margin: 10px;
   cursor: pointer;
   border-radius: 3px;
 background-color: black;
 font-weight: 600;
   font-family: 'Poppins', sans-serif;
-  font-size: 17px;
+  font-size: 13px;
   width:250px;
   transition: ease-in .2s;
 }
@@ -173,6 +172,7 @@ font-weight: 600;
 /* testimonials start */
 .testimonials h1{
   margin-top:5px;
+  letter-spacing: normal;
 }
 .testimonials .testGrid{
 display: grid;
@@ -237,6 +237,7 @@ padding: 40px;
 }
 .designGallary h1{
   margin-top: 50px !important;
+  letter-spacing: normal;
 }
 .desingGrid .desingContent img{
 width: 90%;
