@@ -196,19 +196,20 @@ background-color: #252525;
 
 /* feature portfolio section */
 
-.main .bodyContainer .feature-portfolio h1{
+.feature-portfolio h1{
 text-align: center;
 text-transform: capitalize;
-font-size: 40px;
-font-family: "Roboto", sans-serif;
-font-weight: 500;
+font-size: 30px;
+font-family: 'Poppins', sans-serif;
+font-weight: 550;
 letter-spacing: 7px;
-
+margin-top: 100px;
 }
 .featureContainer{
   display: grid;
    grid-template-columns:repeat(3,1fr);
    gap:3px;
+   padding: 20px;
 }
 
 .featureContainer .feature-content{
