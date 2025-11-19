@@ -268,8 +268,14 @@ object-fit: cover;
   border-radius: 10px;
   border: 1px solid rgb(209, 208, 208);
   margin-left: 40%;
-}
 
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-portfolio  input:focus{
+      border-color: #c2c3c4; 
+  box-shadow: 0 0 5px rgba(229, 230, 230, 0.5);
+     outline: none; 
+}
 /* news letter design start */
 
 
@@ -470,5 +476,7 @@ flex-direction:column;
 .newsContent input{
   margin-bottom: 13px;
 }
-
+.feature-portfolio input{
+  margin-left: 20%;
+}
 }
